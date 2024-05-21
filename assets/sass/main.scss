@@ -1,0 +1,9 @@
+@import "abstracts";
+@import "base";
+@import "components";
+@import "layout";
+
+// Pages scss files
+@import "../../pages/destination/sass/destination.scss";
+@import "../../pages/crew/sass/crew.scss";
+@import "../../pages/technology/sass/technology.scss";

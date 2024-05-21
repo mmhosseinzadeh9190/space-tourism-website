@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #0b0d17;
+  --color-secondary: #d0d6f9;
+  --color-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+}
