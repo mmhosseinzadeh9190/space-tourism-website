@@ -17,10 +17,12 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 62.5%; // 1REM = 10PX
 }
 
 body {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--color-white);
 }
