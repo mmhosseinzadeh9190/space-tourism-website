@@ -1,0 +1,16 @@
+{
+  "name": "Space tourism website",
+  "short_name": "Space site",
+  "icons": [
+    {
+      "src": "assets/img/logo/favicon-192.svg",
+      "type": "image/svg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/img/logo/favicon-512.svg",
+      "type": "image/svg",
+      "sizes": "512x512"
+    }
+  ]
+}
