@@ -1,0 +1,19 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4rem;
+  position: relative;
+}
+
+.hero-section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}

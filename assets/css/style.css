@@ -32,4 +32,98 @@ html {
 
 body {
   font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--color-white); }
+
+.bg-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; }
+  .bg-container--home-page {
+    background-image: url(../img/home/background-home-desktop.jpg); }
+
+.logo {
+  margin-left: 5.6rem; }
+
+.header__nav {
+  -webkit-backdrop-filter: blur(8rem);
+  backdrop-filter: blur(8rem);
+  padding: 4rem 16rem 4rem 12.8rem; }
+  .header__nav::before {
+    content: "";
+    display: block;
+    height: 0.1rem;
+    width: 30vw;
+    background-color: var(--color-white);
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translate(8%, 50%);
+    opacity: 0.25; }
+  .header__nav-list {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none; }
+  .header__nav-link {
+    display: flex;
+    gap: 1.2rem;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+    color: var(--color-white); }
+    .header__nav-link span {
+      font-weight: bold; }
+
+.heading-primary {
+  font-size: 2.8rem;
+  color: var(--color-secondary);
+  font-weight: 400;
+  letter-spacing: 4.75px;
+  text-transform: uppercase; }
+  .heading-primary span {
+    display: block;
+    font-family: "bellefair";
+    font-size: 15rem;
+    color: var(--color-white);
+    padding: 2.4rem 0;
+    letter-spacing: 0; }
+
+.hero-description {
+  width: 45rem;
+  color: var(--color-secondary);
+  font-size: 1.8rem;
+  line-height: 32px;
+  letter-spacing: 0.5px; }
+
+.hero-section__btn {
+  width: 25.5rem;
+  height: 25.5rem;
+  background-color: var(--color-white);
+  border-radius: 50rem;
+  display: flex;
+  transition: all 0.3s;
+  text-decoration: none; }
+  .hero-section__btn span {
+    color: var(--color-primary);
+    font-size: 3.2rem;
+    font-family: "Bellefair";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: auto; }
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18vh; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4rem;
+  position: relative; }
+
+.hero-section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around; }
