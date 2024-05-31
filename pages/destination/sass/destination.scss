@@ -1,0 +1,106 @@
+// layout
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+
+  &--mars,
+  &--titan {
+    gap: 8rem;
+  }
+}
+
+.section__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+// components
+.bg-container--destination-page {
+  background-image: url(../../../assets/img/destination/background-destination-desktop.jpg);
+  gap: 3rem;
+}
+
+.guide-title {
+  display: flex;
+  gap: 2.4rem;
+  font-size: 2.8rem;
+  letter-spacing: 4.75px;
+  margin-left: 17rem;
+  span {
+    font-weight: bold;
+    color: var(--color-gray);
+  }
+  p {
+    text-transform: uppercase;
+  }
+}
+
+.section__text {
+  position: relative;
+}
+
+.section__nav-list {
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  margin-bottom: 5.6rem;
+}
+
+.section__nav-link:link,
+.section__nav-link:visited {
+  font-size: 1.6rem;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+  padding: 1.2rem 0;
+  color: var(--color-secondary);
+  border-bottom: 4px solid transparent;
+  transition: all 0.3s;
+}
+
+.section__nav-link:hover,
+.section__nav-link:active {
+  color: var(--color-white);
+  border-bottom: 4px solid currentColor;
+}
+
+.section__title {
+  font-family: "bellefair";
+  font-size: 10rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.section__info {
+  text-transform: uppercase;
+  display: flex;
+  gap: 8rem;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    span {
+      &:first-child {
+        font-size: 1.4rem;
+        letter-spacing: 2.35px;
+        color: var(--color-secondary);
+      }
+      &:last-child {
+        font-size: 2.8rem;
+        font-family: "bellefair";
+      }
+    }
+  }
+  &::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 47rem;
+    background-color: var(--color-white);
+    opacity: 0.25;
+    position: absolute;
+    bottom: 9.2rem;
+  }
+}
