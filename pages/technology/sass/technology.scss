@@ -1,0 +1,60 @@
+.bg-container--technology-page {
+  background-image: url(../../../assets/img/technology/background-technology-desktop.jpg);
+  gap: 3rem;
+}
+
+.section__container--technology {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs-box {
+  display: flex;
+  align-items: center;
+  margin-top: 5.6rem;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+.page-link:link,
+.page-link:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "bellefair";
+  font-size: 3.2rem;
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid var(--color-gray);
+  border-radius: 50rem;
+  margin: 0 8rem 0 17rem;
+  transition: all 0.2s;
+}
+
+.page-link:hover,
+.page-link:active {
+  border-color: var(--color-white);
+}
+
+.terminology-prefix-text {
+  display: block;
+  font-size: 1.6rem;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
+  margin-bottom: 1.2rem;
+}
+
+.terminology-title {
+  font-family: "bellefair";
+  font-size: 5.6rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
