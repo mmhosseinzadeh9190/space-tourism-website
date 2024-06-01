@@ -3,11 +3,6 @@
   display: flex;
   flex-direction: column;
   gap: 6rem;
-
-  &--mars,
-  &--titan {
-    gap: 8rem;
-  }
 }
 
 .section__container {
