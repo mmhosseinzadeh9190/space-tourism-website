@@ -1,39 +1,6 @@
-// layout
-.section {
-  display: flex;
-  flex-direction: column;
-  gap: 6rem;
-}
-
-.section__container {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
-}
-
-// components
 .bg-container--destination-page {
   background-image: url(../../../assets/img/destination/background-destination-desktop.jpg);
   gap: 3rem;
-}
-
-.guide-title {
-  display: flex;
-  gap: 2.4rem;
-  font-size: 2.8rem;
-  letter-spacing: 4.75px;
-  margin-left: 17rem;
-  span {
-    font-weight: bold;
-    color: var(--color-gray);
-  }
-  p {
-    text-transform: uppercase;
-  }
-}
-
-.section__text {
-  position: relative;
 }
 
 .section__nav-list {
@@ -72,22 +39,26 @@
   text-transform: uppercase;
   display: flex;
   gap: 8rem;
+
   div {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
+
     span {
       &:first-child {
         font-size: 1.4rem;
         letter-spacing: 2.35px;
         color: var(--color-secondary);
       }
+
       &:last-child {
         font-size: 2.8rem;
         font-family: "bellefair";
       }
     }
   }
+
   &::before {
     content: "";
     display: block;
