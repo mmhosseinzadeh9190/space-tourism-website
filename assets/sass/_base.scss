@@ -28,3 +28,8 @@ body {
   font-size: 1.6rem;
   color: var(--color-white);
 }
+
+::selection {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
