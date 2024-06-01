@@ -1,0 +1,49 @@
+.bg-container--crew-page {
+  background-image: url(../../../assets/img/crew/background-crew-desktop.jpg);
+  gap: 3rem;
+}
+
+.crew-info {
+  font-family: "bellefair";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.crew-title {
+  font-size: 3.2rem;
+  color: var(--color-gray-light);
+  margin-bottom: 1.6rem;
+}
+
+.crew-name {
+  font-size: 5.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.indicator {
+  display: flex;
+  gap: 1.6rem;
+  list-style: none;
+  margin-bottom: 8rem;
+
+  &__dots:link,
+  &__dots:visited {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--color-gray);
+    display: block;
+    border-radius: 50rem;
+    transition: all 0.2s;
+  }
+
+  &__dots:hover,
+  &__dots:active {
+    background-color: var(--color-gray-light);
+  }
+}
+
+.crew-img {
+  img {
+    height: 57.5rem;
+  }
+}
