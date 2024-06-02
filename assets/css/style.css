@@ -28,6 +28,10 @@
 *::after {
   box-sizing: inherit; }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 1rem rgba(208, 214, 249, 0.5); }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
@@ -125,7 +129,8 @@ body {
   display: flex;
   text-decoration: none;
   position: relative;
-  z-index: 9; }
+  z-index: 9;
+  transition: all 0.7s; }
   .hero-section__btn:link span,
   .hero-section__btn:visited span {
     color: var(--color-primary);
@@ -135,18 +140,9 @@ body {
     text-transform: uppercase;
     margin: auto; }
 
-.hero-section__btn:active + .hero-section__btn-hover,
-.hero-section__btn:hover + .hero-section__btn-hover {
-  transform: scale(1.7); }
-
-.hero-section__btn-hover {
-  width: 25.5rem;
-  height: 25.5rem;
-  background-color: var(--color-white);
-  border-radius: 50rem;
-  transition: all 0.7s;
-  opacity: 0.1;
-  position: absolute; }
+.hero-section__btn:active,
+.hero-section__btn:hover {
+  box-shadow: 0 0 0 9rem rgba(255, 255, 255, 0.1); }
 
 .guide-title {
   display: flex;

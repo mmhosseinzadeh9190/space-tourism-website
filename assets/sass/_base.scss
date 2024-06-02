@@ -17,6 +17,11 @@
   box-sizing: inherit;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 1rem rgba(208, 214, 249, 0.5);
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1REM = 10PX
