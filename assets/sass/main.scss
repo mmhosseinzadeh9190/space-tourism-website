@@ -1,4 +1,3 @@
-@import "abstracts";
 @import "base";
 @import "components";
 @import "layout";
@@ -7,3 +6,6 @@
 @import "../../pages/destination/sass/destination.scss";
 @import "../../pages/crew/sass/crew.scss";
 @import "../../pages/technology/sass/technology.scss";
+
+// Because of responsive codes execute correctly, I put this import at the last line
+@import "abstracts";

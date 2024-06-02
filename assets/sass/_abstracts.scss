@@ -14,25 +14,52 @@
   src: url(../fonts/BarlowCondensed-Regular.ttf) format("truetype");
 }
 
-@mixin responsive($breakpoint) {
-  @if $breakpoint == mobile {
-    @media only screen and (max-width: 37.5em) {
-      @content;
-    } // 600px
+@media only screen and (max-width: 37.5em) {
+} // 600px
+
+@media only screen and (max-width: 56.25em) {
+} // 900px
+
+@media only screen and (max-width: 64em) {
+} // 1024px
+
+@media only screen and (max-width: 75em) {
+} // 1200px
+
+@media only screen and (max-width: 90em) {
+  .header__nav {
+    &::before {
+      display: none;
+    }
   }
-  @if $breakpoint == tablet-portrait {
-    @media only screen and (max-width: 56.25em) {
-      @content;
-    } // 900px
+
+  .guide-title {
+    margin-left: 11rem;
   }
-  @if $breakpoint == tablet-landscape {
-    @media only screen and (max-width: 75em) {
-      @content;
-    } // 1200px
+
+  .bg-container--destination-page,
+  .bg-container--crew-page,
+  .bg-container--technology-page {
+    gap: 4rem;
   }
-  @if $breakpoint == big-desktop {
-    @media only screen and (min-width: 112.5em) {
-      @content;
-    } // 1800
+
+  .section--destination {
+    gap: 4rem;
   }
-}
+
+  .section__container--crew {
+    padding: 0 7rem 0 11rem;
+  }
+
+  .crew-img img {
+    height: 54.5rem;
+  }
+
+  .tabs-box {
+    padding-left: 6rem;
+    gap: 4rem;
+  }
+} // 1440px
+
+@media only screen and (min-width: 112.5em) {
+} // 1800
