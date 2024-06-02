@@ -303,7 +303,9 @@ body {
 .tabs-box {
   display: flex;
   align-items: center;
-  margin-top: 5.6rem; }
+  gap: 8rem;
+  margin-top: 5.6rem;
+  padding-left: 17rem; }
 
 .pagination {
   display: flex;
@@ -323,7 +325,6 @@ body {
   height: 8rem;
   border: 1px solid var(--color-gray);
   border-radius: 50rem;
-  margin: 0 8rem 0 17rem;
   transition: all 0.2s; }
 
 .page-link:hover,
