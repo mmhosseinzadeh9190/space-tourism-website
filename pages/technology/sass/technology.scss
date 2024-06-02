@@ -42,6 +42,13 @@
   border-color: var(--color-white);
 }
 
+.page-link--active:link,
+.page-link--active:visited {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
+}
+
 .terminology-prefix-text {
   display: block;
   font-size: 1.6rem;

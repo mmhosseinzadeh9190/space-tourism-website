@@ -40,6 +40,11 @@
   &__dots:active {
     background-color: var(--color-gray-light);
   }
+
+  &__dots--active:link,
+  &__dots--active:visited {
+    background-color: var(--color-white);
+  }
 }
 
 .crew-img {

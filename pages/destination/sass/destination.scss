@@ -26,6 +26,12 @@
   border-bottom: 4px solid var(--color-gray-light);
 }
 
+.section__nav-link--active:link,
+.section__nav-link--active:visited {
+  color: var(--color-white);
+  border-bottom: 4px solid var(--color-white);
+}
+
 .section__title {
   font-family: "bellefair";
   font-size: 10rem;

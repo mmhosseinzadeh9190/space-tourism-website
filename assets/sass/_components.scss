@@ -59,6 +59,11 @@
   &-link:active {
     border-bottom: 4px solid var(--color-gray-light);
   }
+
+  &-link--active:link,
+  &-link--active:visited {
+    border-bottom: 4px solid var(--color-white);
+  }
 }
 
 .heading-primary {
@@ -86,6 +91,12 @@
   letter-spacing: 0.5px;
 }
 
+.hero-section__btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-section__btn:link,
 .hero-section__btn:visited {
   width: 25.5rem;
@@ -94,7 +105,8 @@
   border-radius: 50rem;
   display: flex;
   text-decoration: none;
-  transition: all 0.5s;
+  position: relative;
+  z-index: 9;
 
   span {
     color: var(--color-primary);
@@ -106,9 +118,19 @@
   }
 }
 
-.hero-section__btn:hover,
-.hero-section__btn:active {
-  opacity: 0.5;
+.hero-section__btn:active + .hero-section__btn-hover,
+.hero-section__btn:hover + .hero-section__btn-hover {
+  transform: scale(1.7);
+}
+
+.hero-section__btn-hover {
+  width: 25.5rem;
+  height: 25.5rem;
+  background-color: var(--color-white);
+  border-radius: 50rem;
+  transition: all 0.7s;
+  opacity: 0.1;
+  position: absolute;
 }
 
 .guide-title {
