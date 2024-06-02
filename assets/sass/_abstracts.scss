@@ -20,10 +20,36 @@
 @media only screen and (max-width: 56.25em) {
 } // 900px
 
-@media only screen and (max-width: 64em) {
-} // 1024px
-
 @media only screen and (max-width: 75em) {
+  html {
+    font-size: 50%; // 1REM = 8PX
+  }
+
+  .section__container--crew .crew-img img {
+    height: 50rem;
+  }
+
+  .crew-title {
+    font-size: 2.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .crew-name {
+    font-size: 4.8rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .section__container--crew .mb {
+    margin-bottom: 4rem;
+  }
+
+  .terminology-title {
+    font-size: 4.8rem;
+  }
+
+  .section__container--technology .technology-img img {
+    width: 46.5rem;
+  }
 } // 1200px
 
 @media only screen and (max-width: 90em) {
@@ -58,6 +84,10 @@
   .tabs-box {
     padding-left: 6rem;
     gap: 4rem;
+  }
+
+  .technology-img img {
+    width: 48.5rem;
   }
 } // 1440px
 

@@ -3,6 +3,16 @@
   gap: 3rem;
 }
 
+.section__container--destination {
+  padding-bottom: 4rem;
+}
+
+.destination-img {
+  img {
+    width: 45.5rem;
+  }
+}
+
 .section__nav-list {
   display: flex;
   gap: 4rem;
