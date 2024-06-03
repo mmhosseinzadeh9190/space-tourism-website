@@ -18,6 +18,204 @@
 } // 600px
 
 @media only screen and (max-width: 56.25em) {
+  body .bg-container {
+    &--home-page {
+      background-image: url(../img/home/background-home-tablet.jpg);
+      gap: 12rem;
+    }
+
+    &--destination-page {
+      background-image: url(../img/destination/background-destination-tablet.jpg);
+      gap: 5rem;
+    }
+
+    &--crew-page {
+      background-image: url(../img/crew/background-crew-tablet.jpg);
+      gap: 5rem;
+    }
+
+    &--technology-page {
+      background-image: url(../img/technology/background-technology-tablet.jpg);
+      gap: 5rem;
+    }
+  }
+
+  .bg-container .section {
+    &--destination,
+    &--crew,
+    &--technology {
+      gap: 7rem;
+    }
+  }
+
+  .header__nav {
+    padding: 0 4.8rem;
+
+    &-link:link,
+    &-link:visited {
+      letter-spacing: 2.35px;
+      gap: 1rem;
+    }
+  }
+
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .section__description {
+      width: 50rem;
+    }
+  }
+
+  .heading-primary {
+    letter-spacing: 3.4px;
+  }
+
+  .heading-primary__bold-word {
+    font-size: 19rem;
+    line-height: 150px;
+    padding: 2.8rem 0;
+  }
+
+  .section__description {
+    font-size: 2rem;
+    width: 68rem;
+    line-height: 28px;
+  }
+
+  .mb {
+    margin-bottom: 10rem;
+  }
+
+  .hero-section__btn:link,
+  .hero-section__btn:visited {
+    width: 30rem;
+    height: 30rem;
+
+    span {
+      font-size: 4rem;
+    }
+  }
+
+  .section .guide-title {
+    margin-left: 4.8rem;
+    font-size: 2.6rem;
+    letter-spacing: 3.4px;
+  }
+
+  .section--crew .section__container--crew {
+    padding: 0;
+  }
+
+  .section__container {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 7rem;
+
+    &--destination {
+      padding-bottom: 5rem;
+    }
+
+    &--crew,
+    &--technology {
+      .section__description {
+        width: 60rem;
+      }
+
+      div .mb {
+        margin-bottom: 5rem;
+      }
+    }
+
+    &--technology {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .destination-img img {
+    width: 40.5rem;
+  }
+
+  .section__nav-list {
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
+
+  .section__nav-link:link,
+  .section__nav-link:visited {
+    font-size: 2rem;
+  }
+
+  .section__info {
+    justify-content: center;
+    gap: 12rem;
+
+    &::before {
+      width: 72rem;
+      bottom: 11rem;
+    }
+
+    div span:first-child {
+      font-size: 1.8rem;
+    }
+
+    div span:last-child {
+      font-size: 3.5rem;
+    }
+  }
+
+  .crew-info .crew-title {
+    font-size: 3rem;
+  }
+
+  .crew-info .crew-name {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .indicator {
+    margin-bottom: 0;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .section--crew .section__container--crew .crew-img img {
+    height: 64rem;
+  }
+
+  .section--technology .section__container--technology .technology-img img {
+    width: 100%;
+  }
+
+  .section__container--technology .tabs-box {
+    flex-direction: column;
+    padding: 0 0 6rem 0;
+    margin: 0;
+    gap: 6rem;
+  }
+
+  .pagination {
+    flex-direction: row;
+  }
+
+  .terminology-prefix-text {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  div .terminology-title {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
 } // 900px
 
 @media only screen and (max-width: 75em) {
