@@ -25,6 +25,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1REM = 10PX
+  overflow-x: hidden;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   color: var(--color-white);
+  overflow-x: hidden;
 }
 
 ::selection {

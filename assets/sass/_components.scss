@@ -66,6 +66,17 @@
   }
 }
 
+.mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+
+  &__close-icon {
+    display: none;
+  }
+}
+
 .heading-primary {
   font-size: 2.8rem;
   color: var(--color-secondary);
@@ -106,7 +117,6 @@
   display: flex;
   text-decoration: none;
   position: relative;
-  z-index: 9;
   transition: all 0.5s;
 
   span {
