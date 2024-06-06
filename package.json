@@ -10,9 +10,10 @@
     "start": "npm-run-all --parallel dev watch:sass",
     "compile:sass": "node-sass assets/sass/main.scss assets/css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' assets/css/style.comp.css -o assets/css/style.prefix.css",
-    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "compress:css": "node-sass assets/css/style.prefix.css assets/css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css",
-    "build": "vite build",
+    "build:vite": "vite build",
+    "build": "npm-run-all build:css build:vite",
     "preview": "vite preview"
   },
   "repository": {
