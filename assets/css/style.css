@@ -305,7 +305,7 @@ body {
 .tabs-box {
   display: flex;
   align-items: center;
-  gap: 8rem;
+  gap: 6rem;
   margin-top: 5.6rem;
   padding-left: 17rem; }
 
@@ -703,3 +703,22 @@ body {
     gap: 4rem; }
   .technology-img img {
     width: 48.5rem; } }
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 87.5%; }
+  .guide-title {
+    margin-left: 10rem; }
+  .header__nav {
+    padding: 0 18rem 0 15rem; }
+    .header__nav::before {
+      display: none; }
+    .header__nav-list {
+      gap: 4rem; }
+  .section__container--crew {
+    padding: 0;
+    justify-content: space-evenly; }
+  .section__container--technology {
+    justify-content: space-evenly; }
+  .tabs-box {
+    padding-left: 0; } }

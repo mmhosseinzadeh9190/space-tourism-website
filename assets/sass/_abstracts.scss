@@ -595,4 +595,36 @@
 } // 1440px
 
 @media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 87.5%; // 1REM = 14PX
+  }
+
+  .guide-title {
+    margin-left: 10rem;
+  }
+
+  .header__nav {
+    padding: 0 18rem 0 15rem;
+
+    &::before {
+      display: none;
+    }
+
+    &-list {
+      gap: 4rem;
+    }
+  }
+
+  .section__container--crew {
+    padding: 0;
+    justify-content: space-evenly;
+  }
+
+  .section__container--technology {
+    justify-content: space-evenly;
+  }
+
+  .tabs-box {
+    padding-left: 0;
+  }
 } // 1800px
