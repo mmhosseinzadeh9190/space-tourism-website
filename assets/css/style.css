@@ -371,15 +371,127 @@ body {
   font-display: swap;
   src: url(../fonts/BarlowCondensed-Regular.ttf) format("truetype"); }
 
+@media only screen and (max-width: 23.5em) {
+  .hero-section .heading-primary {
+    letter-spacing: 2.7px; }
+    .hero-section .heading-primary .heading-primary__bold-word {
+      font-size: 14rem;
+      line-height: 100px;
+      padding: 2.7rem 0; }
+  main .hero-section .section__description {
+    font-size: 2.5rem;
+    line-height: 25px; }
+  main .hero-section__btn:link,
+  main .hero-section__btn:visited {
+    width: 25rem;
+    height: 25rem; }
+    main .hero-section__btn:link span,
+    main .hero-section__btn:visited span {
+      font-size: 3.2rem;
+      letter-spacing: 1.25px; }
+  body .header .header__nav {
+    width: 65%; }
+  html body .bg-container--destination-page,
+  html body .bg-container--crew-page,
+  html body .bg-container--technology-page {
+    gap: 6rem; }
+  body .bg-container .section--destination,
+  body .bg-container .section--crew,
+  body .bg-container .section--technology {
+    gap: 6rem; }
+  main .section .guide-title {
+    margin-left: 0;
+    justify-content: center;
+    gap: 2.5rem;
+    letter-spacing: 2.7px; }
+  main .section .section__container--technology .section__description,
+  main .section .section__container--crew .section__description,
+  main .section .section__container--destination .section__description {
+    font-size: 2.5rem;
+    width: 51rem;
+    line-height: 25px; }
+  main .section .section__info {
+    flex-direction: column;
+    gap: 5rem; }
+    main .section .section__info::before {
+      width: 51rem;
+      bottom: 29.5rem; }
+    main .section .section__info div {
+      gap: 2rem; }
+      main .section .section__info div span:first-child {
+        font-size: 2.3rem; }
+      main .section .section__info div span:last-child {
+        font-size: 4.5rem; }
+  .section .destination-img img {
+    width: 33rem; }
+  .section .section__container {
+    gap: 5rem; }
+  .section .section__nav-list {
+    margin-bottom: 5rem;
+    gap: 5rem; }
+    .section .section__nav-list .section__nav-link:link,
+    .section .section__nav-list .section__nav-link:visited {
+      font-size: 2.3rem;
+      letter-spacing: 2.35px; }
+  .section .section__title {
+    margin: 0; }
+  main .section--crew .section__container--crew {
+    flex-direction: column-reverse; }
+    main .section--crew .section__container--crew .crew-img {
+      display: flex;
+      justify-content: center;
+      position: relative; }
+      main .section--crew .section__container--crew .crew-img img {
+        height: 45rem; }
+      main .section--crew .section__container--crew .crew-img::before {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 51rem;
+        background-color: var(--color-white);
+        opacity: 0.15;
+        position: absolute;
+        bottom: 0; }
+    main .section--crew .section__container--crew div {
+      display: flex;
+      flex-direction: column; }
+      main .section--crew .section__container--crew div nav {
+        order: -1;
+        margin-bottom: 5rem; }
+        main .section--crew .section__container--crew div nav .indicator {
+          gap: 2.5rem; }
+      main .section--crew .section__container--crew div .crew-info .crew-title {
+        font-size: 2.6rem; }
+      main .section--crew .section__container--crew div .crew-info .crew-name {
+        font-size: 4rem; }
+  main .section__container--technology .tabs-box {
+    gap: 4rem;
+    padding: 0 0 5rem 0; }
+  main .section__container--technology .pagination {
+    gap: 2.5rem; }
+  main .section__container--technology .page-link:link,
+  main .section__container--technology .page-link:visited {
+    font-size: 2.5rem;
+    width: 7rem;
+    height: 7rem; }
+  main .section__container--technology .terminology-prefix-text {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2.35px; }
+  main .section__container--technology .terminology-title {
+    font-size: 4rem; } }
+
 @media only screen and (max-width: 37.5em) {
   html {
     font-size: 37.5% !important; }
+  html body .bg-container--home-page {
+    gap: 10rem; }
   .header {
-    padding: 3rem 3rem 0;
+    padding: 4rem 4rem 0;
     z-index: 9; }
     .header .logo {
       margin-left: 0;
-      width: 5rem; }
+      width: 6rem; }
   .header .header__nav {
     position: absolute;
     top: 0;
@@ -423,6 +535,8 @@ body {
     display: none; }
   .nav-open .mobile-nav__close-icon {
     display: block; }
+  main .hero-section {
+    gap: 14rem; }
   .section .section__container--technology .section__description,
   .section .section__container--crew .section__description,
   .section .section__container--destination .section__description {
@@ -466,7 +580,7 @@ body {
       flex-direction: column;
       align-items: center; }
     .hero-section .section__description {
-      width: 50rem; }
+      width: 52rem; }
   .heading-primary {
     letter-spacing: 3.4px; }
   .heading-primary__bold-word {
@@ -489,7 +603,8 @@ body {
   .section .guide-title {
     margin-left: 4.8rem;
     font-size: 2.6rem;
-    letter-spacing: 3.4px; }
+    letter-spacing: 3.4px;
+    gap: 2rem; }
   .section--crew .section__container--crew {
     padding: 0; }
   .section__container {
