@@ -14,17 +14,208 @@
   src: url(../fonts/BarlowCondensed-Regular.ttf) format("truetype");
 }
 
+@media only screen and (max-width: 23.5em) {
+  .hero-section .heading-primary {
+    letter-spacing: 2.7px;
+
+    .heading-primary__bold-word {
+      font-size: 14rem;
+      line-height: 100px;
+      padding: 2.7rem 0;
+    }
+  }
+
+  main {
+    .hero-section {
+      .section__description {
+        font-size: 2.5rem;
+        line-height: 25px;
+      }
+    }
+
+    .hero-section__btn:link,
+    .hero-section__btn:visited {
+      width: 25rem;
+      height: 25rem;
+
+      span {
+        font-size: 3.2rem;
+        letter-spacing: 1.25px;
+      }
+    }
+  }
+
+  body .header .header__nav {
+    width: 65%;
+  }
+
+  html body .bg-container--destination-page {
+    gap: 6rem;
+  }
+
+  body {
+    .bg-container .section--destination,
+    .bg-container .section--crew,
+    .bg-container .section--technology {
+      gap: 6rem;
+    }
+  }
+
+  main .section {
+    .guide-title {
+      margin-left: 0;
+      justify-content: center;
+      gap: 2.5rem;
+      letter-spacing: 2.7px;
+    }
+
+    .section__container--technology .section__description,
+    .section__container--crew .section__description,
+    .section__container--destination .section__description {
+      font-size: 2.5rem;
+      width: 51rem;
+      line-height: 25px;
+    }
+
+    .section__info {
+      flex-direction: column;
+      gap: 5rem;
+
+      &::before {
+        width: 51rem;
+        bottom: 29.5rem;
+      }
+
+      div {
+        gap: 2rem;
+
+        span:first-child {
+          font-size: 2.3rem;
+        }
+
+        span:last-child {
+          font-size: 4.5rem;
+        }
+      }
+    }
+  }
+
+  .section {
+    .destination-img img {
+      width: 33rem;
+    }
+
+    .section__container {
+      gap: 5rem;
+    }
+
+    .section__nav-list {
+      margin-bottom: 5rem;
+      gap: 5rem;
+
+      .section__nav-link:link,
+      .section__nav-link:visited {
+        font-size: 2.3rem;
+        letter-spacing: 2.35px;
+      }
+    }
+
+    .section__title {
+      margin: 0;
+    }
+  }
+
+  main .section--crew .section__container--crew {
+    flex-direction: column-reverse;
+
+    .crew-img {
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      img {
+        height: 45rem;
+      }
+
+      &::before {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 51rem;
+        background-color: var(--color-white);
+        opacity: 0.15;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      nav {
+        order: -1;
+        margin-bottom: 5rem;
+
+        .indicator {
+          gap: 2.5rem;
+        }
+      }
+
+      .crew-info .crew-title {
+        font-size: 2.6rem;
+      }
+
+      .crew-info .crew-name {
+        font-size: 4rem;
+      }
+    }
+  }
+
+  main .section__container--technology {
+    .tabs-box {
+      gap: 4rem;
+      padding: 0 0 5rem 0;
+    }
+
+    .pagination {
+      gap: 2.5rem;
+    }
+
+    .page-link:link,
+    .page-link:visited {
+      font-size: 2.5rem;
+      width: 7rem;
+      height: 7rem;
+    }
+
+    .terminology-prefix-text {
+      font-size: 2.3rem;
+      margin-bottom: 1.5rem;
+      letter-spacing: 2.35px;
+    }
+
+    .terminology-title {
+      font-size: 4rem;
+    }
+  }
+} // 375px
+
 @media only screen and (max-width: 37.5em) {
   html {
-    font-size: 37.5% !important; // 1REM = 7PX
+    font-size: 37.5% !important; // 1REM = 6PX
+  }
+
+  html body .bg-container--home-page {
+    gap: 10rem;
   }
 
   .header {
-    padding: 3rem 3rem 0;
+    padding: 4rem 4rem 0;
     z-index: 9;
     .logo {
       margin-left: 0;
-      width: 5rem;
+      width: 6rem;
     }
   }
 
@@ -95,6 +286,10 @@
     &__close-icon {
       display: block;
     }
+  }
+
+  main .hero-section {
+    gap: 14rem;
   }
 
   .section .section__container--technology,
@@ -176,7 +371,7 @@
     }
 
     .section__description {
-      width: 50rem;
+      width: 52rem;
     }
   }
 
@@ -214,6 +409,7 @@
     margin-left: 4.8rem;
     font-size: 2.6rem;
     letter-spacing: 3.4px;
+    gap: 2rem;
   }
 
   .section--crew .section__container--crew {
