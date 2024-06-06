@@ -391,13 +391,20 @@ body {
       letter-spacing: 1.25px; }
   body .header .header__nav {
     width: 65%; }
-  html body .bg-container--destination-page,
-  html body .bg-container--crew-page,
-  html body .bg-container--technology-page {
+  html body .bg-container--home-page {
+    background-image: url(../img/home/background-home-mobile.jpg); }
+  html body .bg-container--destination-page {
+    background-image: url(../img/destination/background-destination-mobile.jpg);
     gap: 6rem; }
-  body .bg-container .section--destination,
-  body .bg-container .section--crew,
-  body .bg-container .section--technology {
+  html body .bg-container--crew-page {
+    background-image: url(../img/crew/background-crew-mobile.jpg);
+    gap: 6rem; }
+  html body .bg-container--technology-page {
+    background-image: url(../img/technology/background-technology-mobile.jpg);
+    gap: 6rem; }
+  html body .bg-container .section--destination,
+  html body .bg-container .section--crew,
+  html body .bg-container .section--technology {
     gap: 6rem; }
   main .section .guide-title {
     margin-left: 0;

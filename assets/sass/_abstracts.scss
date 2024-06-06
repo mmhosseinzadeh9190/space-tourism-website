@@ -50,18 +50,31 @@
   }
 
   html body {
-    .bg-container--destination-page,
-    .bg-container--crew-page,
-    .bg-container--technology-page {
-      gap: 6rem;
-    }
-  }
+    .bg-container {
+      &--home-page {
+        background-image: url(../img/home/background-home-mobile.jpg);
+      }
 
-  body {
-    .bg-container .section--destination,
-    .bg-container .section--crew,
-    .bg-container .section--technology {
-      gap: 6rem;
+      &--destination-page {
+        background-image: url(../img/destination/background-destination-mobile.jpg);
+        gap: 6rem;
+      }
+
+      &--crew-page {
+        background-image: url(../img/crew/background-crew-mobile.jpg);
+        gap: 6rem;
+      }
+
+      &--technology-page {
+        background-image: url(../img/technology/background-technology-mobile.jpg);
+        gap: 6rem;
+      }
+
+      .section--destination,
+      .section--crew,
+      .section--technology {
+        gap: 6rem;
+      }
     }
   }
 
