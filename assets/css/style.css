@@ -37,7 +37,8 @@ body {
 .bg-container {
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh; }
+  min-height: 100vh;
+  background-position: center; }
   .bg-container--home-page {
     background-image: url(../img/home/background-home-desktop.jpg);
     gap: 14rem; }
@@ -186,7 +187,7 @@ body {
   align-items: flex-end; }
 
 .bg-container--destination-page {
-  background-image: url(../../../assets/img/destination/background-destination-desktop.jpg);
+  background-image: url(../../assets/img/destination/background-destination-desktop.jpg);
   gap: 3rem; }
 
 .section__container--destination {
@@ -253,7 +254,7 @@ body {
     bottom: 9.2rem; }
 
 .bg-container--crew-page {
-  background-image: url(../../../assets/img/crew/background-crew-desktop.jpg);
+  background-image: url(../../assets/img/crew/background-crew-desktop.jpg);
   gap: 3rem; }
 
 .section__container--crew {
@@ -268,11 +269,13 @@ body {
 .crew-title {
   font-size: 3.2rem;
   color: var(--color-gray-light);
-  margin-bottom: 1.6rem; }
+  margin-bottom: 1.6rem;
+  display: block; }
 
 .crew-name {
   font-size: 5.6rem;
-  margin-bottom: 2.4rem; }
+  margin-bottom: 2.4rem;
+  display: block; }
 
 .indicator {
   display: flex;
@@ -295,7 +298,7 @@ body {
   height: 57.5rem; }
 
 .bg-container--technology-page {
-  background-image: url(../../../assets/img/technology/background-technology-desktop.jpg);
+  background-image: url(../../assets/img/technology/background-technology-desktop.jpg);
   gap: 3rem; }
 
 .section__container--technology {
