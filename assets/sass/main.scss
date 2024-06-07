@@ -3,9 +3,9 @@
 @import "layout";
 
 // Pages scss files
-@import "../../pages/destination/sass/destination.scss";
-@import "../../pages/crew/sass/crew.scss";
-@import "../../pages/technology/sass/technology.scss";
+@import "../../pages/destination/destination.scss";
+@import "../../pages/crew/crew.scss";
+@import "../../pages/technology/technology.scss";
 
 // Because of responsive codes execute correctly, I put this import at the last line
 @import "abstracts";
