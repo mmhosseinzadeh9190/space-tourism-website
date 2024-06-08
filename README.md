@@ -3,15 +3,15 @@
 
 This website provides comprehensive information on outer space, encompassing details about various planets, introducing some of the engineers and pilots, and the cutting-edge astronaut equipment and space technology.
 
-### Overview
+## Overview
 
 ![Design preview for the Space tourism website](https://github.com/mmhosseinzadeh9190/space-tourism-website/blob/main/preview.jpg?raw=true)
 
-### Link
+## Link
 
 - Live Site URL: [Space tourism website](https://space-tourism-website-hz.vercel.app)
 
-### How to run project
+## How to run project
 If you intend to use and personalize this website, you can follow this steps:
 
 - First you need to download this entire repository.
