@@ -31,10 +31,12 @@
   justify-content: center;
   font-family: "bellefair";
   font-size: 3.2rem;
+  color: var(--color-white);
   width: 8rem;
   height: 8rem;
   border: 1px solid var(--color-gray);
   border-radius: 50rem;
+  text-decoration: none;
   transition: all 0.2s;
 }
 
