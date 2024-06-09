@@ -39,7 +39,6 @@
       height: 25rem;
 
       span {
-        font-size: 3.2rem;
         letter-spacing: 1.25px;
       }
     }
@@ -90,12 +89,12 @@
     .section__container--crew .section__description,
     .section__container--destination .section__description {
       font-size: 2.5rem;
-      width: 51rem;
       line-height: 25px;
     }
 
     .section__info {
       flex-direction: column;
+      align-items: center;
       gap: 5rem;
 
       &::before {
@@ -307,18 +306,37 @@
 
   main .hero-section {
     gap: 14rem;
-  }
 
-  .section .section__container--technology,
-  .section .section__container--crew,
-  .section .section__container--destination {
-    .section__description {
-      width: 58rem;
+    &__btn:link,
+    &__btn:visited {
+      width: 26rem;
+      height: 26rem;
+
+      span {
+        font-size: 3.2rem;
+      }
     }
   }
 
-  .section .section__info::before {
-    width: 58rem;
+  .section {
+    .section__nav-link:link,
+    .section__nav-link:visited {
+      font-size: 2.4rem;
+    }
+
+    .section__info div span:first-child {
+      font-size: 2rem;
+    }
+  }
+
+  main {
+    .section__description {
+      font-size: 2.4rem;
+    }
+
+    .terminology-prefix-text {
+      font-size: 2.4rem;
+    }
   }
 } // 600px
 
@@ -386,10 +404,6 @@
       flex-direction: column;
       align-items: center;
     }
-
-    .section__description {
-      width: 52rem;
-    }
   }
 
   .heading-primary {
@@ -406,6 +420,7 @@
     font-size: 2rem;
     width: 68rem;
     line-height: 28px;
+    padding: 0 8rem;
   }
 
   .mb {
@@ -445,10 +460,6 @@
 
     &--crew,
     &--technology {
-      .section__description {
-        width: 60rem;
-      }
-
       div .mb {
         margin-bottom: 5rem;
       }
@@ -460,7 +471,7 @@
   }
 
   .destination-img img {
-    width: 40.5rem;
+    width: 37.5rem;
   }
 
   .section__nav-list {
@@ -478,7 +489,7 @@
     gap: 12rem;
 
     &::before {
-      width: 72rem;
+      width: 58rem;
       bottom: 11rem;
     }
 
@@ -507,7 +518,7 @@
   }
 
   .section--crew .section__container--crew .crew-img img {
-    height: 64rem;
+    height: 60rem;
   }
 
   .section--technology .section__container--technology .technology-img img {
