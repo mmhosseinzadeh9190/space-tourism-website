@@ -85,6 +85,10 @@
       letter-spacing: 2.7px;
     }
 
+    .destination-img img {
+      width: 33rem;
+    }
+
     .section__container--technology .section__description,
     .section__container--crew .section__description,
     .section__container--destination .section__description {
@@ -98,7 +102,7 @@
       gap: 5rem;
 
       &::before {
-        width: 51rem;
+        width: 48rem;
         bottom: 29.5rem;
       }
 
@@ -117,10 +121,6 @@
   }
 
   .section {
-    .destination-img img {
-      width: 33rem;
-    }
-
     .section__container {
       gap: 5rem;
     }
@@ -141,7 +141,7 @@
     }
   }
 
-  main .section--crew .section__container--crew {
+  body main .section--crew .section__container--crew {
     flex-direction: column-reverse;
 
     .crew-img {
@@ -188,7 +188,7 @@
     }
   }
 
-  main .section__container--technology {
+  body main .section__container--technology {
     .tabs-box {
       gap: 4rem;
       padding: 0 0 5rem 0;
@@ -200,9 +200,9 @@
 
     .page-link:link,
     .page-link:visited {
-      font-size: 2.5rem;
-      width: 7rem;
-      height: 7rem;
+      font-size: 2.2rem;
+      width: 6rem;
+      height: 6rem;
     }
 
     .terminology-prefix-text {
@@ -216,6 +216,39 @@
     }
   }
 } // 375px
+
+@media only screen and (max-width: 27em) {
+  main .section__description {
+    padding: 0 11rem;
+  }
+
+  .section {
+    .destination-img img {
+      width: 33.5rem;
+    }
+
+    .section__info {
+      gap: 8rem;
+
+      &::before {
+        width: 51rem;
+      }
+    }
+  }
+
+  main .section--crew .section__container--crew .crew-img img {
+    height: 52rem;
+  }
+
+  main .section__container--technology {
+    .page-link:link,
+    .page-link:visited {
+      font-size: 2.5rem;
+      width: 7rem;
+      height: 7rem;
+    }
+  }
+} // 432px
 
 @media only screen and (max-width: 37.5em) {
   html {

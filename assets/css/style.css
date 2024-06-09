@@ -416,6 +416,8 @@ body {
     justify-content: center;
     gap: 2.5rem;
     letter-spacing: 2.7px; }
+  main .section .destination-img img {
+    width: 33rem; }
   main .section .section__container--technology .section__description,
   main .section .section__container--crew .section__description,
   main .section .section__container--destination .section__description {
@@ -426,7 +428,7 @@ body {
     align-items: center;
     gap: 5rem; }
     main .section .section__info::before {
-      width: 51rem;
+      width: 48rem;
       bottom: 29.5rem; }
     main .section .section__info div {
       gap: 2rem; }
@@ -434,8 +436,6 @@ body {
         font-size: 2.3rem; }
       main .section .section__info div span:last-child {
         font-size: 4.5rem; }
-  .section .destination-img img {
-    width: 33rem; }
   .section .section__container {
     gap: 5rem; }
   .section .section__nav-list {
@@ -447,15 +447,15 @@ body {
       letter-spacing: 2.35px; }
   .section .section__title {
     margin: 0; }
-  main .section--crew .section__container--crew {
+  body main .section--crew .section__container--crew {
     flex-direction: column-reverse; }
-    main .section--crew .section__container--crew .crew-img {
+    body main .section--crew .section__container--crew .crew-img {
       display: flex;
       justify-content: center;
       position: relative; }
-      main .section--crew .section__container--crew .crew-img img {
+      body main .section--crew .section__container--crew .crew-img img {
         height: 45rem; }
-      main .section--crew .section__container--crew .crew-img::before {
+      body main .section--crew .section__container--crew .crew-img::before {
         content: "";
         display: block;
         height: 1px;
@@ -464,34 +464,51 @@ body {
         opacity: 0.15;
         position: absolute;
         bottom: 0; }
-    main .section--crew .section__container--crew div {
+    body main .section--crew .section__container--crew div {
       display: flex;
       flex-direction: column; }
-      main .section--crew .section__container--crew div nav {
+      body main .section--crew .section__container--crew div nav {
         order: -1;
         margin-bottom: 5rem; }
-        main .section--crew .section__container--crew div nav .indicator {
+        body main .section--crew .section__container--crew div nav .indicator {
           gap: 2.5rem; }
-      main .section--crew .section__container--crew div .crew-info .crew-title {
+      body main .section--crew .section__container--crew div .crew-info .crew-title {
         font-size: 2.6rem; }
-      main .section--crew .section__container--crew div .crew-info .crew-name {
+      body main .section--crew .section__container--crew div .crew-info .crew-name {
         font-size: 4rem; }
-  main .section__container--technology .tabs-box {
+  body main .section__container--technology .tabs-box {
     gap: 4rem;
     padding: 0 0 5rem 0; }
-  main .section__container--technology .pagination {
+  body main .section__container--technology .pagination {
     gap: 2.5rem; }
+  body main .section__container--technology .page-link:link,
+  body main .section__container--technology .page-link:visited {
+    font-size: 2.2rem;
+    width: 6rem;
+    height: 6rem; }
+  body main .section__container--technology .terminology-prefix-text {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2.35px; }
+  body main .section__container--technology .terminology-title {
+    font-size: 4rem; } }
+
+@media only screen and (max-width: 27em) {
+  main .section__description {
+    padding: 0 11rem; }
+  .section .destination-img img {
+    width: 33.5rem; }
+  .section .section__info {
+    gap: 8rem; }
+    .section .section__info::before {
+      width: 51rem; }
+  main .section--crew .section__container--crew .crew-img img {
+    height: 52rem; }
   main .section__container--technology .page-link:link,
   main .section__container--technology .page-link:visited {
     font-size: 2.5rem;
     width: 7rem;
-    height: 7rem; }
-  main .section__container--technology .terminology-prefix-text {
-    font-size: 2.3rem;
-    margin-bottom: 1.5rem;
-    letter-spacing: 2.35px; }
-  main .section__container--technology .terminology-title {
-    font-size: 4rem; } }
+    height: 7rem; } }
 
 @media only screen and (max-width: 37.5em) {
   html {
